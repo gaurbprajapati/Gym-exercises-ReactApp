@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# React fitness Exercises App
 
 ![](Screenshot%20(382).png)
 
