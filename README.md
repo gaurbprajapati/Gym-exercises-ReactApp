@@ -1,6 +1,12 @@
 # React fitness Exercises App
 
-![](Screenshot%20(382).png)
+This is complete responsive website 
+
+![](Screenshot%20(388).png)
+![](Screenshot%20(389).png)
+![](Screenshot%20(387).png)
+![](Screenshot%20(386).png)
+![](Screenshot%20(390).png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
