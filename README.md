@@ -1,6 +1,6 @@
 # React fitness Exercises App
 
-This is complete responsive website 
+This is complete responsive , working  website 
 
 ![](Screenshot%20(388).png)
 ![](Screenshot%20(396).png)
