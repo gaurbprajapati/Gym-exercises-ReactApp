@@ -5,10 +5,13 @@ import HorizontalScrollbar from './HorizontalScrollbar';
 import Loader from './Loader';
 
 
+
 const SimilarExercises = ({ targetMuscleExercises, equipmentExercises }) => {
   return (
-    
-    <Box sx={{ mt: { lg: '100px', xs: '0px' } }}>
+
+    <section style={{backgroundColor:'#FEFBF6'}} >
+
+    <Box sx={{ mt: { lg: '100px', xs: '0px' ,mb:'10px'} }}>
     <Typography sx={{ fontSize: { lg: '44px', xs: '25px' }, ml: '20px' }} fontWeight={700} color="#000" mb="33px">
       Similar <span style={{ color: '#FF2625', textTransform: 'capitalize' }}>Target Muscle</span> exercises
     </Typography>
@@ -18,10 +21,12 @@ const SimilarExercises = ({ targetMuscleExercises, equipmentExercises }) => {
     <Typography sx={{ fontSize: { lg: '44px', xs: '25px' }, ml: '20px', mt: { lg: '100px', xs: '60px' } }} fontWeight={700} color="#000" mb="33px">
       Similar <span style={{ color: '#FF2625', textTransform: 'capitalize' }}>Equipment</span> exercises
     </Typography>
-    <Stack direction="row" sx={{ p: 2, position: 'relative' }}>
+    <Stack direction="row" sx={{ p: 2, position: 'relative' , mb: '10px'}}>
       {equipmentExercises.length !== 0 ? <HorizontalScrollbar data={equipmentExercises} /> : <Loader />}
     </Stack>
   </Box>
+    </section>
+    
   )
 }
 

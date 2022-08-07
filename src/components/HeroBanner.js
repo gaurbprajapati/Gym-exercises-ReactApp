@@ -1,6 +1,6 @@
 import React from 'react'
 import {Box , Stack , Typography} from '@mui/material';
-import HeroBannerImage from '../assets/images/banner.png';
+import HeroBannerImage from '../assets/images/image.jpg';
 const HeroBanner = () => {
   return (
     <>
@@ -8,7 +8,37 @@ const HeroBanner = () => {
 {/* mb-- margin at bottom  */}
 {/* mt = margi at top */}
 
-  <Box sx={{ mt: { lg: '212px', xs: '70px' }, ml: { sm: '50px' } }} position="relative" p="20px">
+
+<section style={{backgroundColor:'black' , height: '900px'}}>
+  <Box  position="relative" p="20px">
+    <Typography sx={{ fontSize:{lg:'70px' , xs:"40px"},  mt: { lg: '80px', xs: '70px' }, ml: { lg: '100px', sm: '50px' }  }} color="#FF2625" fontWeight="600" fontSize="26px">Fitness Club</Typography>
+
+    <Typography fontWeight={700} sx={{color:"white", fontSize: { lg: '44px', xs: '40px' } , mt: { lg: '30px', xs: '70px' }, ml: { lg: '100px', sm: '50px' }  }} mb="23px" mt="30px">
+      Sweat, Smile <br />
+      And Repeat
+    </Typography>
+    <Typography sx={{color:"white", fontSize: { lg: '20px', xs: '20px' } , mt: { lg: '30px', xs: '70px' }, ml: { lg: '100px', sm: '50px' }  }}  fontSize="22px" fontFamily="Alegreya" lineHeight="35px">
+      Check out the most effective exercises personalized to you
+    </Typography>
+    <Stack sx={{color:"white", fontSize: { lg: '20px', xs: '20px' } , mt: { lg: '30px', xs: '70px' }, ml: { lg: '100px', sm: '50px' }  }}>
+      <a href="#exercises" style={{ marginTop: '45px' , textDecoration: 'none', width: '200px', textAlign: 'center', background: '#FF2625', padding: '14px', fontSize: '22px', textTransform: 'none', color: 'white', borderRadius: '4px' }}>Explore Exercises</a>
+    </Stack>
+
+    {/* opacity: '0.1' = change color light  */}
+
+    <Typography fontWeight={600} color="#FF2625" sx={{ opacity: '0.3', display: { lg: 'block', xs: 'none' }, fontSize:{lg:'220px',xs:'40px' , sm:'10px'} , position:'absolute', zIndex:3  }}>
+      Exercise
+    </Typography>
+    
+    <img src={HeroBannerImage} style={{zIndex:1}}  alt="hero-banner" className="hero-banner-img" />
+  </Box>
+
+</section>
+
+
+
+
+  {/* <Box sx={{ mt: { lg: '212px', xs: '70px' }, ml: { sm: '50px' } }} position="relative" p="20px">
     <Typography color="#FF2625" fontWeight="600" fontSize="26px">Fitness Club</Typography>
     <Typography fontWeight={700} sx={{ fontSize: { lg: '44px', xs: '40px' } }} mb="23px" mt="30px">
       Sweat, Smile <br />
@@ -21,13 +51,13 @@ const HeroBanner = () => {
       <a href="#exercises" style={{ marginTop: '45px', textDecoration: 'none', width: '200px', textAlign: 'center', background: '#FF2625', padding: '14px', fontSize: '22px', textTransform: 'none', color: 'white', borderRadius: '4px' }}>Explore Exercises</a>
     </Stack>
 
-    {/* opacity: '0.1' = change color light  */}
+    
 
     <Typography fontWeight={600} color="#FF2625" sx={{ opacity: '0.1', display: { lg: 'block', xs: 'none' }, fontSize: '200px' }}>
       Exercise
     </Typography>
     <img src={HeroBannerImage} alt="hero-banner" className="hero-banner-img" />
-  </Box>
+  </Box> */}
 
   
     </>
@@ -98,3 +128,9 @@ export default HeroBanner;
 //   {/* <img src={HeroBannerImage} alt="hero-banner" className="hero-banner-img" /> */}
 // </Box>
 // </section>
+
+
+// --------------<>_----best design --------------------
+
+
+

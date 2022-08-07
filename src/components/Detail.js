@@ -31,15 +31,16 @@ const Detail = ({ exerciseDetail }) => {
 
       <Stack sx={{ gap: { lg: "35px", xs: "20px" } }}>
         <Typography
-          sx={{ fontSize: { lg: "64px", xs: "30px" } }}
+          sx={{ color:'#112B3C' ,fontSize: { lg: "64px", xs: "30px" } }}
           fontWeight={700}
           textTransform="capitalize"
+        
         >
           {name}
         </Typography>
         <Typography
-          sx={{ fontSize: { lg: "24px", xs: "18px" } }}
-          color="#4F4C4C"
+          sx={{ fontSize: { lg: "20px", xs: "18px" } ,fontStyle:'bold' }}
+          color="#231955"
         >
           Exercises keep you strong.{" "}
           <span style={{ textTransform: "capitalize" }}>{name}</span> bup is one
