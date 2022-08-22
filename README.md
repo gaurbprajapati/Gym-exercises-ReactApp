@@ -1,7 +1,8 @@
 # React fitness Exercises App
 
 This is complete responsive , working  website 
-
+User can search more than 1000 excercises and related you tube video. 
+Used tech - react.js, material ui, rapid API
 ![](Screenshot%20(388).png)
 ![](Screenshot%20(403).png)
 ![](Screenshot%20(396).png)
